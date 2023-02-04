@@ -72,7 +72,7 @@ struct WeatherView: View {
                             .padding()
                             .font(.largeTitle)
                         VStack {
-                            Text("Condition: \(weather.currentWeather.condition.rawValue)")
+                            Text("Current Condition: \(weather.currentWeather.condition.rawValue)")
                                 .font(.title2)
                             Text("Temperature: \(weather.currentWeather.temperature.formatted())")
                                 .font(.title2)
